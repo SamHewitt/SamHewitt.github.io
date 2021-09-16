@@ -1,34 +1,57 @@
 <!DOCTYPE html>
-<html>
-<title>UX form</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url('/w3images/forestbridge.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UX form</title>
+</head>
+<body>
+</head>
+
 <body>
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Logo
-  </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">35 days left</p>
-  </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-  </div>
-</div>
+<section id="container">
+<h1>Please confirm your details</h1><br>
 
+<button class="button" 
+onclick="window.location.href = 'https://form.jotform.com/212586560836059';">
+  Click Here
+</button>
+</section>
 </body>
+
+<style>
+#container {
+border: black;
+justify-content: center;
+display: flex;
+padding-top: 10%;
+padding-bottom: 10%;
+
+
+}
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+background-image: url("assets/img/background.jpg");
+background-repeat: no-repeat, repeat;
+ 
+}
+
+.button {
+      background-color: rgb(255, 255, 255);
+      border: 2px solid black;
+      color: rgb(0, 0, 0);
+      padding: 5px 10px;
+      text-align: center;
+      display: inline-block;
+      font-size: 20px;
+      margin: 10px 30px;
+      cursor: pointer;
+  }
+</style>
 </html>
